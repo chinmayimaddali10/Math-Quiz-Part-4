@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess The Word</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="game.css">
+</head>
+
+<body>
+
+    <h4 id="player1Name"></h4>
+    <span id="player1Score"></span>
+    <br>
+    <h4 id="player2Name"></h4>
+    <span id="player2Score"></span>
+
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Math Quiz</h2>
+            <h3 id="playerQuestion"></h3>
+            <h3 id="playerAnswer"></h3>
+            <div id="output" class="col-lg-6"></div>
+
+            <br>
+            <br>
+
+            <label>Enter Your Word: <b style="color: red">Try putting only numbers or else it will say NAN.</b></label>
+            <h2>Number 1</h2>
+            <input type="text" id="Num1" class="form-control" placeholder="Number 1">
+            <h2>Number 2</h2>
+            <input type="text" id="Num2" class="form-control" placeholder="Number 2">
+            <br>
+            <button onclick="send();" class="btn btn-success" style="widows: 30%;;">Sent</button>
+
+            <br>
+
+        </center>
+    </div>
+
+    <script src="quiz_page.js"></script>
+</body>
+
+</html>
